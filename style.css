@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
     list-style-type: none;
     font-family: sans-serif;
-    background-color: rgb(93, 235, 93);
+    background-color: rgb(107, 148, 107);
 }
 .navbar{
     display: flex;
@@ -39,15 +39,177 @@ nav li a:hover{
     display: flex;
     cursor: pointer;
 }
+.pic1{
+width: 80%;
+height: 60%;
+
+
+}
+.pic2{
+    width: 80%;
+    height: 60%;
+    
+    
+    }
+.pic3{
+ width: 80%;
+        height: 60%;
+}
+
+.apps{
+    display: block;
+}
+
+.box2{
+    display: block;
+}
+
 .icon ion-icon{
     margin-left: 60px;
      font-size: 2rem;
 }
+
 span{
     color: black;
     font-size: larger;
     padding: 5px;
     font-weight: bold;
+}
+
+.veg img{
+    height: 200px;
+    width: 300px;
+}
+
+.image img{
+padding-top: 10%;
+border-top-left-radius: 30% 30%;
+border-bottom-right-radius: 30% 30%;
+}
+
+.container1 a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.container1 a:hover {
+  background-color:red;
+  text-decoration: solid;
+  color: white;
+}
+
+.icon ion-icon{
+  margin-left: 60px;
+}
+.logo{
+width: 7%;
+height:5%;
+}
+
+.about{
+  display: flex;
+  gap: 3%;
+  padding-left: 3%;
+}
+
+.st1{
+  font-size:large;
+}
+
+.mama{
+  width: 60%;
+  height:60%;
+}
+
+.mision{
+display: flex;
+gap: 2%;
+margin-left:10%;
+padding-top: 5%;
+}
+
+.m1{
+height: 60%;
+width: 80%;
+}
+
+.st2{
+color:black;
+font-size: large;
+}
+
+@media screen and (min-width: 768px) {
+.container1 {
+    font-size: x-large;
+}
+.logo {
+    width: 5%;
+    height: 3%;
+}
+.about {
+    gap: 5%;
+}
+.mama {
+    width: 40%;
+    height: auto;
+}
+.mision {
+    gap: 5%;
+    margin-left: 20%;
+}
+.m1 {
+    height: 50%;
+    width: 70%;
+}
+.st2 {
+    font-size: large;
+}
+.footer {
+    font-size: large;
+}
+}
+
+@media screen and (max-width: 767px) {
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+}
+.container1 a {
+    margin: 5px;
+}
+.about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.mama {
+    width: 70%;
+    height: auto;
+}
+.mision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    margin-left: 0;
+}
+.m1 {
+    height: auto;
+    width: 100%;
+}
+.st2 {
+    font-size: medium;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+}
+
 }
 .testimonials{
 background-color: #ccc;
@@ -55,79 +217,86 @@ border: 1px solid black;
 padding: 2rem;
 width: 5rem;
 }
-.endpage{
-display: grid;grid-template-columns: repeat(3,1fr);
-margin-top:4rem ;
-background-color:rgb(165, 208, 102);
-padding: 3rem;
-}
+
 .apps{
     display: block;
     width: 10%;
     height: 60%;
     gap: 2%;
     margin-left: 20%;
-
 }
+
 .image2{
     width: 100%;
     height: 60%;
 }
+
 .image3{
     width: 100%;
     height: 60%;
 }
+
 .fit{
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3,1fr);
     gap:60px ;
 }
+
 .box4 img{
    height: 350px;
    width: 350px;
 }
+
 .box5 img{
     height: 350px;
     width: 350px;
 }
+
 .box6 img{
     height: 350px;
     width: 350px;
 }
+
 h2, h1{
     text-align: center;
     margin-top:2rem;
     margin-bottom: 2rem;
 }
+
 .customers{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding:2rem ;
 }
+
 .customer img{
     border-radius: 50%;
     margin-top:-1rem ;
     margin-left: 3rem;
 }
+
 .customer3 img{
     width: 50%;
     height: 50%;
     padding: 2rem;
     border-radius: 50%;
 }
+
 .customer2 img{
     width: 50%;
     height: 50%;
     padding: 2rem;
     border-radius: 50%;
 }
+
 .customer1 img{
     width: 50%;
     height:50%;
     padding: 2rem;
     border-radius: 50%;
 }
+
 .footer{
     margin-top: 3%;
     display: grid;
@@ -136,6 +305,7 @@ h2, h1{
     text-decoration: none;
     color:white;
 }
+
 .footer h1,h2,h3{
     margin-right: 16rem;
 }
